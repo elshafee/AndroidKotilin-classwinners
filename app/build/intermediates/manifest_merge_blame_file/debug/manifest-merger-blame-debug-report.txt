@@ -1,0 +1,125 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.elshafee.androidclasswin"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/ahmadelshafee/AndroidStudioProjects/AndroidClasswin/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/ahmadelshafee/AndroidStudioProjects/AndroidClasswin/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/ahmadelshafee/AndroidStudioProjects/AndroidClasswin/app/src/main/AndroidManifest.xml:5:5-36:19
+12        android:allowBackup="true"
+12-->/Users/ahmadelshafee/AndroidStudioProjects/AndroidClasswin/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] /Users/ahmadelshafee/.gradle/caches/transforms-3/205feb206244c8c1b4b56fcdc8d69988/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->/Users/ahmadelshafee/AndroidStudioProjects/AndroidClasswin/app/src/main/AndroidManifest.xml:7:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->/Users/ahmadelshafee/AndroidStudioProjects/AndroidClasswin/app/src/main/AndroidManifest.xml:8:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/ahmadelshafee/AndroidStudioProjects/AndroidClasswin/app/src/main/AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->/Users/ahmadelshafee/AndroidStudioProjects/AndroidClasswin/app/src/main/AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/Users/ahmadelshafee/AndroidStudioProjects/AndroidClasswin/app/src/main/AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->/Users/ahmadelshafee/AndroidStudioProjects/AndroidClasswin/app/src/main/AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.AndroidClasswin" >
+22-->/Users/ahmadelshafee/AndroidStudioProjects/AndroidClasswin/app/src/main/AndroidManifest.xml:13:9-53
+23        <activity
+23-->/Users/ahmadelshafee/AndroidStudioProjects/AndroidClasswin/app/src/main/AndroidManifest.xml:16:9-22:20
+24            android:name="com.elshafee.androidclasswin.todolist.TodolistActivity"
+24-->/Users/ahmadelshafee/AndroidStudioProjects/AndroidClasswin/app/src/main/AndroidManifest.xml:17:13-54
+25            android:exported="false" >
+25-->/Users/ahmadelshafee/AndroidStudioProjects/AndroidClasswin/app/src/main/AndroidManifest.xml:18:13-37
+26            <meta-data
+26-->/Users/ahmadelshafee/AndroidStudioProjects/AndroidClasswin/app/src/main/AndroidManifest.xml:19:13-21:36
+27                android:name="android.app.lib_name"
+27-->/Users/ahmadelshafee/AndroidStudioProjects/AndroidClasswin/app/src/main/AndroidManifest.xml:20:17-52
+28                android:value="" />
+28-->/Users/ahmadelshafee/AndroidStudioProjects/AndroidClasswin/app/src/main/AndroidManifest.xml:21:17-33
+29        </activity>
+30        <activity
+30-->/Users/ahmadelshafee/AndroidStudioProjects/AndroidClasswin/app/src/main/AndroidManifest.xml:23:9-35:20
+31            android:name="com.elshafee.androidclasswin.shoppingitemlist.ui.ShoppingActivity"
+31-->/Users/ahmadelshafee/AndroidStudioProjects/AndroidClasswin/app/src/main/AndroidManifest.xml:24:13-65
+32            android:exported="true" >
+32-->/Users/ahmadelshafee/AndroidStudioProjects/AndroidClasswin/app/src/main/AndroidManifest.xml:25:13-36
+33            <intent-filter>
+33-->/Users/ahmadelshafee/AndroidStudioProjects/AndroidClasswin/app/src/main/AndroidManifest.xml:26:13-30:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/Users/ahmadelshafee/AndroidStudioProjects/AndroidClasswin/app/src/main/AndroidManifest.xml:27:17-69
+34-->/Users/ahmadelshafee/AndroidStudioProjects/AndroidClasswin/app/src/main/AndroidManifest.xml:27:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/Users/ahmadelshafee/AndroidStudioProjects/AndroidClasswin/app/src/main/AndroidManifest.xml:29:17-77
+36-->/Users/ahmadelshafee/AndroidStudioProjects/AndroidClasswin/app/src/main/AndroidManifest.xml:29:27-74
+37            </intent-filter>
+38
+39            <meta-data
+39-->/Users/ahmadelshafee/AndroidStudioProjects/AndroidClasswin/app/src/main/AndroidManifest.xml:19:13-21:36
+40                android:name="android.app.lib_name"
+40-->/Users/ahmadelshafee/AndroidStudioProjects/AndroidClasswin/app/src/main/AndroidManifest.xml:20:17-52
+41                android:value="" />
+41-->/Users/ahmadelshafee/AndroidStudioProjects/AndroidClasswin/app/src/main/AndroidManifest.xml:21:17-33
+42        </activity>
+43
+44        <uses-library
+44-->[androidx.window:window:1.0.0] /Users/ahmadelshafee/.gradle/caches/transforms-3/e65b8465f5bac02dec998c398cfe1021/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+45            android:name="androidx.window.extensions"
+45-->[androidx.window:window:1.0.0] /Users/ahmadelshafee/.gradle/caches/transforms-3/e65b8465f5bac02dec998c398cfe1021/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+46            android:required="false" />
+46-->[androidx.window:window:1.0.0] /Users/ahmadelshafee/.gradle/caches/transforms-3/e65b8465f5bac02dec998c398cfe1021/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+47        <uses-library
+47-->[androidx.window:window:1.0.0] /Users/ahmadelshafee/.gradle/caches/transforms-3/e65b8465f5bac02dec998c398cfe1021/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+48            android:name="androidx.window.sidecar"
+48-->[androidx.window:window:1.0.0] /Users/ahmadelshafee/.gradle/caches/transforms-3/e65b8465f5bac02dec998c398cfe1021/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+49            android:required="false" />
+49-->[androidx.window:window:1.0.0] /Users/ahmadelshafee/.gradle/caches/transforms-3/e65b8465f5bac02dec998c398cfe1021/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+50
+51        <service
+51-->[androidx.room:room-runtime:2.4.2] /Users/ahmadelshafee/.gradle/caches/transforms-3/024ea95f86ed2e6cdce29f1d52601111/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+52            android:name="androidx.room.MultiInstanceInvalidationService"
+52-->[androidx.room:room-runtime:2.4.2] /Users/ahmadelshafee/.gradle/caches/transforms-3/024ea95f86ed2e6cdce29f1d52601111/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+53            android:directBootAware="true"
+53-->[androidx.room:room-runtime:2.4.2] /Users/ahmadelshafee/.gradle/caches/transforms-3/024ea95f86ed2e6cdce29f1d52601111/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+54            android:exported="false" />
+54-->[androidx.room:room-runtime:2.4.2] /Users/ahmadelshafee/.gradle/caches/transforms-3/024ea95f86ed2e6cdce29f1d52601111/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+55
+56        <provider
+56-->[androidx.emoji2:emoji2:1.2.0] /Users/ahmadelshafee/.gradle/caches/transforms-3/412372332f980a5c4ef0364c55a99af0/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+57            android:name="androidx.startup.InitializationProvider"
+57-->[androidx.emoji2:emoji2:1.2.0] /Users/ahmadelshafee/.gradle/caches/transforms-3/412372332f980a5c4ef0364c55a99af0/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+58            android:authorities="com.elshafee.androidclasswin.androidx-startup"
+58-->[androidx.emoji2:emoji2:1.2.0] /Users/ahmadelshafee/.gradle/caches/transforms-3/412372332f980a5c4ef0364c55a99af0/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+59            android:exported="false" >
+59-->[androidx.emoji2:emoji2:1.2.0] /Users/ahmadelshafee/.gradle/caches/transforms-3/412372332f980a5c4ef0364c55a99af0/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+60            <meta-data
+60-->[androidx.emoji2:emoji2:1.2.0] /Users/ahmadelshafee/.gradle/caches/transforms-3/412372332f980a5c4ef0364c55a99af0/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+61                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+61-->[androidx.emoji2:emoji2:1.2.0] /Users/ahmadelshafee/.gradle/caches/transforms-3/412372332f980a5c4ef0364c55a99af0/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+62                android:value="androidx.startup" />
+62-->[androidx.emoji2:emoji2:1.2.0] /Users/ahmadelshafee/.gradle/caches/transforms-3/412372332f980a5c4ef0364c55a99af0/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+63            <meta-data
+63-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ahmadelshafee/.gradle/caches/transforms-3/a8199b6bb025d711471524267dd78014/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+64                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+64-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ahmadelshafee/.gradle/caches/transforms-3/a8199b6bb025d711471524267dd78014/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+65                android:value="androidx.startup" />
+65-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ahmadelshafee/.gradle/caches/transforms-3/a8199b6bb025d711471524267dd78014/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+66        </provider>
+67
+68        <meta-data
+68-->[com.google.android.gms:play-services-basement:16.0.1] /Users/ahmadelshafee/.gradle/caches/transforms-3/65476e4ea2b99374bb14aa31bdf73e8e/transformed/play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+69            android:name="com.google.android.gms.version"
+69-->[com.google.android.gms:play-services-basement:16.0.1] /Users/ahmadelshafee/.gradle/caches/transforms-3/65476e4ea2b99374bb14aa31bdf73e8e/transformed/play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
+70            android:value="@integer/google_play_services_version" />
+70-->[com.google.android.gms:play-services-basement:16.0.1] /Users/ahmadelshafee/.gradle/caches/transforms-3/65476e4ea2b99374bb14aa31bdf73e8e/transformed/play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
+71    </application>
+72
+73</manifest>
